@@ -1,0 +1,6 @@
+framework module WLOverlayWindow {
+  umbrella header "WLOverlayWindow-umbrella.h"
+
+  export *
+  module * { export * }
+}
