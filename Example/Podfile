@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'WLOverlayWindow_Example' do
+  pod 'WLOverlayWindow', :path => '../'
+
+  target 'WLOverlayWindow_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
